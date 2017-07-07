@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+<constant name="struts.devMode" value="true"/>
+<constant name="struts.custom.i18n.resources" value="properties/myMessages"/>
+<constant name="struts.multipart.parser" value="jakarta"/>
+<constant name="struts.objectFactory.spring.autowire" value="name"/>
+
+<package name="common" extends="struts-default" namespace="/">
+<action name="RegisterAction" class="com.RegisterAction">
+<result name="success">/index.jsp</result>
+<result name="error">/error.jsp</result>
+</action>
+</package>
+
+<package name="json" extends="json-default" namespace="/feat">
+<action name="FeatureAction" class="com.FeatureAction">
+<result name="success" type="json"/>
+</action>
+
+<action name="FindAction" class="com.FindAction">
+<result name="success" type="json">
+<param name="root">temp</param>
+</result>
+</action>
+
+</package>
+
+
+</struts>

@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Main.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>pages/TabFaceLogin.qml</file>
+        <file>pages/TabPasswordLogin.qml</file>
+        <file>pages/PageLogin.qml</file>
+        <file>pages/PageIndex.qml</file>
+        <file>images/密码.svg</file>
+        <file>images/账号.svg</file>
+        <file>images/登记入库.svg</file>
+        <file>images/人脸检索.svg</file>
+        <file>images/人脸对比.svg</file>
+        <file>images/真人鉴别.svg</file>
+        <file>images/人脸捕获.svg</file>
+        <file>images/人脸跟踪.svg</file>
+        <file>images/设置.svg</file>
+        <file>images/图像质量.svg</file>
+        <file>pages/IndexRegistration.qml</file>
+        <file>pages/IndexSearch.qml</file>
+        <file>pages/IndexIdentification.qml</file>
+        <file>pages/IndexVivo.qml</file>
+        <file>pages/IndexCapture.qml</file>
+        <file>pages/IndexQuality.qml</file>
+        <file>pages/IndexSettings.qml</file>
+        <file>pages/IndexTrack.qml</file>
+        <file>images/图片占位符.svg</file>
+    </qresource>
+</RCC>

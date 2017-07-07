@@ -1,0 +1,3 @@
+FaceAlignment.lib
+FaceDetection.lib
+FaceIdentification.lib
